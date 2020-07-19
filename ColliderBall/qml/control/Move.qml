@@ -17,7 +17,7 @@ Rectangle{
     color: "transparent"
     focus: true
 
-    // 目标玩家和坦克是从外面设置的
+    // 目标玩家和ball是从外面设置的
     property var player
     property var ball
     property double originX
