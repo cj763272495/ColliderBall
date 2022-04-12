@@ -10,7 +10,6 @@
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-
     FelgoApplication felgo;
 
     qmlRegisterType<Diamond>("DiaData",1,0,"Diamond");
@@ -41,7 +40,6 @@ int main(int argc, char *argv[])
     // felgo.setMainQmlFileName(QStringLiteral("qrc:/qml/Main.qml"));
 
     engine.load(QUrl(felgo.mainQmlFileName()));
-
     return app.exec();
 }
 
